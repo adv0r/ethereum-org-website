@@ -33,6 +33,7 @@ There's also [Geth Prometheus Exporter](https://github.com/hunterlong/gethexport
 In this tutorial, we'll set up your Geth client to push data to InfluxDB to create a database and Grafana to create a graph visualisation of the data. Doing it manually will help you understand the process better, alter it, and deploy in different environments.
 
 ## Setting up InfluxDB {#setting-up-influxdb}
+***Instructions below only works with InfluxDB v1***
 
 First, let's download and install InfluxDB. Various download options can be found at [Influxdata release page](https://portal.influxdata.com/downloads/). Pick the one that suits your environment.
 You can also install it from a [repository](https://repos.influxdata.com/). For example in Debian based distribution:
